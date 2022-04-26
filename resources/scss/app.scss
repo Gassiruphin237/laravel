@@ -1,3 +1,4 @@
+@import "variables";
 @import "bootstrap";
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
@@ -6,3 +7,23 @@
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/regular";
 @import "~@fortawesome/fontawesome-free/scss/brands";
+
+.logo {
+    width: 65px;
+}
+
+.dropdown-item {cursor: pointer;}
+
+.navbar {
+    .navbar-nav {
+        .nav-link {
+            padding: 15px;
+            border-radius: 10px;
+
+            &.active {
+                background-color: white;
+            }
+        }
+
+    }
+}
